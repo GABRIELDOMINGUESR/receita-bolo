@@ -1,22 +1,53 @@
-* {
+*{
     padding: 0;
     margin: 0;
 }
 header{
     height: 100px;
     background-color: black;
+    
 }
 
-.logo{
+.Logo{
     height: 80px;
+
 }
 
-main {
+.Foto1{
+    height: 380px;
+}
+
+main{
+    display: flex;
+    padding-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  
+    
+}
+
+.titulo {
+    font-size: xx-large;
+    font-family: sans-serif;
+
+}
+
+
+.intro-container {
     display: flex;
     flex-direction: column;
-    background-color: tomato;
-    padding-top: 40px ;
     align-items: center;
     gap: 20px;
+
+}
+.foto-bolo{
+    width: 380px;
 }
 
+.ingredientes-container{
+ width: 600px;
+}
+
+.ingredientes-container ul{
+    padding-left: 32px;
+}
